@@ -1,0 +1,55 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "chating-application-2024",
+          "appId": "1:366553761617:android:e43a2aad49b8f0364d7570",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "chating-application-2024",
+          "appId": "1:366553761617:ios:cbf1601d8146240e4d7570",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "chating-application-2024",
+          "appId": "1:366553761617:ios:cbf1601d8146240e4d7570",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "chating-application-2024",
+          "configurations": {
+            "android": "1:366553761617:android:e43a2aad49b8f0364d7570",
+            "ios": "1:366553761617:ios:cbf1601d8146240e4d7570",
+            "macos": "1:366553761617:ios:cbf1601d8146240e4d7570",
+            "web": "1:366553761617:web:876a1fce8648e0694d7570",
+            "windows": "1:366553761617:web:be9b123a35ce45154d7570"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
